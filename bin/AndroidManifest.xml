@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
     package="com.gna.backgammon"
-    android:versionCode="1"
+	android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
@@ -14,12 +15,15 @@
         <activity
             android:name=".Intro"
             android:label="@string/title_activity_intro" >
+            android:name=".Yaw" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         
         <activity
             android:name=".Game"
@@ -50,5 +54,5 @@
         </activity>
         
     </application>
-    <!-- BLAH COMMENT BLAH -->
+    
 </manifest>
