@@ -7,4 +7,4 @@ playing vs the pc(pc will be using minimax)
 
  ^ LOL NOPE
 also, socks
-aw
+aw aw aw
