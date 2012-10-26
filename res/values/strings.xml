@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">backgammon</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_intro">Intro</string>
+    <string name="bPlay1v1">Play 1v1</string>
+    <string name="About">
+        taWQ \n
+        TWA \n
+        RAS \n
+        D \n
+        AS \n
+        DSA \n
+        DSADSADASDAS \n
+        DSA \n
+        D \n
+        ASD \n
+        SA \n
+        DSA \n
+        DSADASDASDASDASDASDAS \n
+        DAS \n
+        DAS \n
+        DSAASSDFASDFJASKHDFSAKJDSAD \n
+        DSAD \n
+        SA \n
+        DSA \n
+    </string>
+    
+    
+</resources>

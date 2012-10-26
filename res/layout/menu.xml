@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bPlayVsPc"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bPlay1v1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Play vs PC" />
+
+    <Button
+        android:id="@+id/bTrollTheDice"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bPlayVsPc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Troll the dice"/>
+    <Button
+        android:id="@+id/bAbout"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bTrollTheDice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="About"/>
+
+    <Button
+        android:id="@+id/bPlay1v1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bPlayVsPc"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="1v1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bPlay1v1"
+        android:layout_centerHorizontal="true"
+        android:text="Play vs another person"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bPlayVsPc"
+        android:layout_centerHorizontal="true"
+        android:text="Play vs PC"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bTrollTheDice"
+        android:layout_centerHorizontal="true"
+        android:text="See what troll the dice does"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
