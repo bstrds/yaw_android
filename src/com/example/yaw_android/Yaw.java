@@ -1,6 +1,7 @@
 package com.example.yaw_android;
 //bstrds does it work now ? 
-
+//u know u can see if u have android 2.2
+//if u do have i m gonna tell u the settings so u can run apps ;)
 import org.andengine.engine.camera.Camera;
 import org.andengine.engine.options.EngineOptions;
 import org.andengine.engine.options.ScreenOrientation;
